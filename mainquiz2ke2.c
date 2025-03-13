@@ -9,9 +9,6 @@ int main() {
     // 1) Masukkan bilangan 7 sebagai elemen pertama
     insertFirst(&list, 7);
 
-    // 2) Masukkan bilangan 11 sebagai elemen kedua
-    insertLast(&list, 11);
-
     // 3) Masukkan bilangan 9 di antara bilangan 7 dan 11
     insertAfter(&list, 7, 9);
 
@@ -21,17 +18,8 @@ int main() {
     // 5) Masukkan bilangan 13 di akhir list
     insertLast(&list, 13);
 
-    // 6) Hapus elemen terakhir (bilangan 13)
-    deleteLast(&list);
-
-    // 7) Hapus bilangan 7 dalam list
-    deleteValue(&list, 7);
-
     // 8) Hapus elemen pertama (bilangan 5)
     deleteFirst(&list);
-
-    // 9) Hapus semua elemen dalam list
-    deleteAll(&list);
 
     return 0;
 }
